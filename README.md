@@ -29,10 +29,9 @@ HTML, CSS – frontend design
 ## ✅ How to Run
 Clone the repository
 Install requirements
-
-## pip install -r requirements.txt
-Run the Flask app
-## python app.py
+pip install -r requirements.txt
+## Run the Flask app
+python app.py
 
 Open http://127.0.0.1:5000 in browser
 

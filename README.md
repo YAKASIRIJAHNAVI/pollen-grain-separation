@@ -7,21 +7,32 @@ This project focuses on the automatic classification of pollen grains using Conv
 Pollen grains are microscopic and vary in shape, size, and texture. Manual classification is time-consuming and requires expert knowledge. This project aims to automate the process using machine learning, specifically a deep learning-based image classifier.
 ## project structure
 Pollen_Grain_Classification/
-├── app.py
-├── train_model.py
+├── app.py                       # Flask web app to upload image and show prediction
+├── train_model.py              # Script to train the CNN model on pollen grain dataset
+│
 ├── model/
-│   └── pollen_model.h5
+│   └── pollen_model.h5         # Trained CNN model saved in HDF5 format
+│
 ├── static/
-│   ├── css/style.css
-│   └── output/result1.jpg
+│   ├── css/
+│   │   └── style.css           # CSS file for styling the frontend UI
+│   └── output/
+│       └── result1.jpg         # Sample prediction output images
+│
 ├── templates/
-│   ├── index.html
-│   └── result.html
+│   ├── index.html              # Homepage with upload form
+│   └── result.html             # Displays predicted class/result image
+│
 ├── dataset/
-│   ├── train/Class1/
-│   └── test/Class1/
-├── requirements.txt
-├── README.md
+│   ├── train/
+│   │   └── Class1/             # Training images for one class (e.g., pollen type A)
+│   └── test/
+│       └── Class1/             # Test images for one class
+│
+├── requirements.txt            # List of Python libraries to install
+├── README.md                   # Project description, usage, and instructions
+├── .gitignore                  # Files/folders to ignore in Git (e.g., __pycache__, *.h5)
+└── output_video_demo.mp4       # Demo video of the working project (optional)
 
 ## 🌟 Features
 

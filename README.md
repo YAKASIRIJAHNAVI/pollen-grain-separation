@@ -31,9 +31,6 @@ Pollen_Grain_Classification/
 │
 ├── requirements.txt            # List of Python libraries to install
 ├── README.md                   # Project description, usage, and instructions
-├── .gitignore                  # Files/folders to ignore in Git (e.g., __pycache__, *.h5)
-└── output_video_demo.mp4       # Demo video of the working project (optional)
-
 ## 🌟 Features
 
 - Image classification using a trained CNN model.

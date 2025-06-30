@@ -1,61 +1,59 @@
-# Pollen Profiling: Automated Classification of Pollen Grains
+## 📝 Project Overview
+This project aims to automate the process of pollen grain classification using Convolutional Neural Networks (CNNs). It provides a simple and interactive Flask-based web interface where users can upload microscopic images of pollen grains, and the trained model predicts their type accurately.
 
-This project focuses on the automatic classification of pollen grains using Convolutional Neural Networks (CNNs). It includes a simple web-based user interface developed using Flask, allowing users to upload an image of a pollen grain and receive a prediction of its class.
+## 💡 Key Features
+🔍 Image classification using a deep learning CNN model
 
-##  Overview
+🖼️ Real-time image upload and prediction via Flask web app
 
-Pollen grains are microscopic and vary in shape, size, and texture. Manual classification is time-consuming and requires expert knowledge. This project aims to automate the process using machine learning, specifically a deep learning-based image classifier.
-## project structure
-Pollen_Grain_Classification/
-├── app.py                       # Flask web app to upload image and show prediction
-├── train_model.py              # Script to train the CNN model on pollen grain dataset
-│
-├── model/
-│   └── pollen_model.h5         # Trained CNN model saved in HDF5 format
-│
-├── static/
-│   ├── css/
-│   │   └── style.css           # CSS file for styling the frontend UI
-│   └── output/
-│       └── result1.jpg         # Sample prediction output images
-│
-├── templates/
-│   ├── index.html              # Homepage with upload form
-│   └── result.html             # Displays predicted class/result image
-│
-├── dataset/
-│   ├── train/
-│   │   └── Class1/             # Training images for one class (e.g., pollen type A)
-│   └── test/
-│       └── Class1/             # Test images for one class
-│
-├── requirements.txt            # List of Python libraries to install
-├── README.md                   # Project description, usage, and instructions
-## 🌟 Features
+📊 Preprocessed dataset of microscopic pollen images
 
-- Image classification using a trained CNN model.
-- Easy-to-use web interface built with Flask.
-- Upload pollen grain images and view instant predictions.
-- Minimal dataset used for demonstration purposes.
-- Modular code: easily upgradable with a larger dataset or deeper model.
+💾 Saved model (.h5) for instant predictions
 
-## 🗂️ Dataset Summary
+📱 Responsive and user-friendly UI
 
-This demo uses a small, custom dataset with three categories of floral pollen images:
-- **Daisy**  
-- **Sunflower**  
-- **Rose**
+🎥 Output video demo for easy understanding
 
-Each class contains 10 sample images for testing and demonstration. The dataset can be extended with microscopic real-world images for better results.
+ ## Technologies Used
+Python
 
-## 🧑‍💻 Developed By
+TensorFlow / Keras – for CNN model creation
 
-**YAKASIRI JAHNAVI**,
-**SATHIGARI SURENDRA**,
-**SAGARLA MANOHAR**,
-**SAI PUPA**
+OpenCV / PIL – for image processing
 
----
+Flask – for the web interface
+
+HTML, CSS – frontend design
+
+## 📁 Folder Structure (Short Summary)
+graphql
+Copy
+Edit
+├── app.py               # Flask web application
+├── train_model.py       # Model training script
+├── model/               # Contains saved CNN model
+├── static/              # Contains CSS and result images
+├── templates/           # HTML templates (index, result pages)
+├── dataset/             # Pollen grain image dataset
+├── requirements.txt     # Required Python packages
+├── README.md            # Project documentation
+
+## ✅ How to Run
+Clone the repository
+Install requirements
+
+## pip install -r requirements.txt
+Run the Flask app
+## python app.py
+
+Open http://127.0.0.1:5000 in browser
+
+
+## 👩‍💻 Developed By
+YAKASIRI JAHNAVI,
+SATHIGARI SURENDRA, 
+SAGARLA MANOHAR,
+SAI PUPA
 
 ## 📌 Note
 

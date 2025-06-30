@@ -25,18 +25,6 @@ Flask – for the web interface
 
 HTML, CSS – frontend design
 
-## 📁 Folder Structure (Short Summary)
-graphql
-Copy
-Edit
-├── app.py               # Flask web application
-├── train_model.py       # Model training script
-├── model/               # Contains saved CNN model
-├── static/              # Contains CSS and result images
-├── templates/           # HTML templates (index, result pages)
-├── dataset/             # Pollen grain image dataset
-├── requirements.txt     # Required Python packages
-├── README.md            # Project documentation
 
 ## ✅ How to Run
 Clone the repository
